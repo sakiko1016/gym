@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9122a69497.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="test.css">
+    <title>Yoga Studio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="navbar-brand"><a href="#">Yoga Studio</a>
+            </div>
+            <div class="navbar-list">
+                <ul>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>                    
+                    </li>
+                    <li class="nav-item">
+                        <a href="#artists" class="nav-link">Our Methods</a>                    
+                    </li>
+                    <li class="nav-item">
+                        <a href="#concerts" class="nav-link">Sign In</a>                    
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shop" class="nav-link">Sign Up</a>                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Lansing Tile -->
+    <section class="landing-page-area-one">
+        <div>
+            <img src="images/yoga-main.jpg" alt="Yoga Main" class="background">
+        </div>
+        <h1 class="showfeats">Welcome to Yoga Studio</h1>
+    </section>
+
+    <!-- Artist Tile -->
+    <a href="#sign-up" class="cta">Sign Up Now</a>
+    <section class="artists-tile">
+        <div id="gradient"></div>
+        <div class="artist-header" id="artists">
+                <h2>Methods</h2>
+        </div>
+        <div class="main-tile-dimension">
+            <div class="artist">
+                <div class="image-container-artist">
+                    <img src="images/iStock-1438372230.jpg" alt="strength, balance and flexibility">
+                </div>
+                <div class="artist-name">
+                    <h1>strength, balance and flexibility</h1>
+                </div>
+                <div class="artist-info">Slow movements and deep breathing increase blood flow and warm up muscles, while holding a pose can build strength </div>
+            </div>
+            <div class="artist">
+                <div class="image-container-artist">
+                    <img src="images/iStock-1354213603.jpg" alt="back pain relief">
+                </div>
+                <div class="artist-name">
+                    <h1>back pain relief</h1>
+                </div>
+                <div class="artist-info">Yoga is as good as basic stretching for easing pain and improving mobility in people with lower back pain. 
+                    The American College of Physicians recommends yoga as a first-line treatment for chronic low back pain. </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes -->
+    <section class="classes" id="classes">
+        <div class="classes-container">
+            <h2>Classes</h2>
+            <table>
+                <tr>
+                    <th>Teacher</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Sakiko Cooper</td>
+                    <td>Yoga for begginer</td>
+                    <td>02.17.24</td>
+                </tr>
+                <tr>
+                    <td>Brian Cooper</td>
+                    <td>Advance Yoga</td>
+                    <td>02.18.24</td>
+                </tr>
+                <tr>
+                    <td>John Smith</td>
+                    <td>Hot yoga</td>
+                    <td>02.19.24</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- sign in -->
+    <section id="sign-in" class="section">
+        <h2>Sign In</h2>
+        <form action="#" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email-signin" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password-signin" name="password" required>
+
+            <button type="submit">Sign In</button>
+        </form>
+        <p>Don't have an account? <a href="#sign-up">Sign Up here.</a></p>
+    </section>
+
+    <!-- sing up-->
+    <section id="sign-up" class="section">
+        <h2>Sign Up</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name-signup" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email-signup" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password-signup" name="password" required>
+
+            <label for="membership">Select Membership Plan:</label>
+            <select id="membership" name="membership">
+                <option value="basic">Basic</option>
+                <option value="premium">Premium</option>
+            </select>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the Terms and Conditions</label>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+        <!-- Footer -->
+
+    <footer>
+        <div class="bottom">
+            <div class="map">
+                <img src="images/chicago map screenshot.png" alt="Map" class="mapimg">
+            </div>
+            <div class="footinfo">
+                <div class="foothead">Info</div>
+                <div class="location">
+                    <p class="tiny"><i class="fas fa-map-marker-alt"></i> New York, NY 11111 United States</p>
+                </div>
+                <div class="email">
+                    <p class="tiny"><i class="fas fa-envelope"></i> example@example.com</p>
+                </div>
+                <div class="phone">
+                    <p class="tiny"><i class="fas fa-mobile-alt"></i> Call us "(111)-111-1111</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
